@@ -1,0 +1,3 @@
+echo "wa haha"
+./hello
+
