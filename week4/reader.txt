@@ -1,0 +1,16 @@
+this week is about the input and output
+
+lseek()  will change the * position
+O_WRONLY  will write from the * postion
+O_APPEND  will write from the end of file in spite of the * position
+illustrate:  4-2  4-2-2
+
+write()   is share the same file
+read()    not share the same file
+illustrate: 4-3 4-3-2  4-4
+
+dup(olddex)  The  dup()  system  call  creates  a copy of the file descriptor oldfd,  using the lowest-numbered unused descriptor for the new descriptor.
+dup(olddex,new) the newdex dup(), but instead  of using  the lowest-numbered unused file descriptor, it uses the descriptor number specified in newfd.
+illustrate: 4-5 4-5-2
+
+
