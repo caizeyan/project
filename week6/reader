@@ -1,0 +1,2 @@
+_exit()    won't flush the buffer
+exit()    will flush the buffer
